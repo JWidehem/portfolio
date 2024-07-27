@@ -1,0 +1,32 @@
+# Global directives
+User-agent: *
+Disallow: /private/         # Interdit l'accès à tous les robots d'exploration à ce répertoire
+Disallow: /temp/            # Interdit l'accès à ce répertoire temporaire
+Disallow: /admin/           # Interdit l'accès à la section admin (si elle existe)
+Allow: /                    # Permet l'exploration du reste du site
+
+# Sitemap location
+Sitemap: https://jimmywidehem.com/sitemap.xml
+
+# Blocking specific crawlers (Example: Blocking AhrefsBot)
+User-agent: AhrefsBot
+Disallow: /
+
+# Delaying crawling (Use with caution, only if necessary)
+Crawl-delay: 10              # Demande aux robots de faire une pause de 10 secondes entre les requêtes pour réduire la charge serveur
+
+# Specific file types to disallow
+Disallow: /*.pdf$            # Empêche l'indexation de tous les fichiers PDF
+Disallow: /*.doc$            # Empêche l'indexation de tous les fichiers DOC
+Disallow: /*.zip$            # Empêche l'indexation de tous les fichiers ZIP
+
+# Allowing specific bots (Example: Google's image bot)
+User-agent: Googlebot-Image
+Allow: /
+
+# Additional directives for better control (optional)
+User-agent: *
+Disallow: /search            # Exclut les résultats de recherche internes (si pertinents)
+Noindex: /private/           # Empêche l'indexation du contenu dans ce répertoire
+Noindex: /temp/              # Empêche l'indexation du contenu temporaire
+Noindex: /admin/             # Empêche l'indexation de l'interface d'administration
