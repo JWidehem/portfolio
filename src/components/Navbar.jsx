@@ -37,22 +37,46 @@ const Navbar = () => {
         <a href="#">J.W</a>
         <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
           <li>
-            <Link to="skills" smooth={true} offset={50} duration={500}>
+            <Link
+              to="skills"
+              smooth={true}
+              offset={50}
+              duration={500}
+              href="#skills"
+            >
               About
             </Link>
           </li>
           <li>
-            <Link to="projects" smooth={true} offset={50} duration={500}>
+            <Link
+              to="projects"
+              smooth={true}
+              offset={50}
+              duration={500}
+              href="#projects"
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link to="approach" smooth={true} offset={50} duration={500}>
+            <Link
+              to="approach"
+              smooth={true}
+              offset={50}
+              duration={500}
+              href="#approach"
+            >
               My Approach
             </Link>
           </li>
           <li>
-            <Link to="contact" smooth={true} offset={50} duration={500}>
+            <Link
+              to="contact"
+              smooth={true}
+              offset={50}
+              duration={500}
+              href="#contact"
+            >
               Contact
             </Link>
           </li>
@@ -80,6 +104,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
+                href="#skills"
               >
                 About
               </Link>
@@ -91,6 +116,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
+                href="#projects"
               >
                 Projects
               </Link>
@@ -102,6 +128,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
+                href="#approach"
               >
                 My Approach
               </Link>
@@ -113,6 +140,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={50}
                 duration={500}
+                href="#contact"
               >
                 Contact
               </Link>

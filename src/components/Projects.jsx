@@ -64,14 +64,16 @@ const Projects = () => {
                 <a
                   href={project.links.site}
                   className="px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
-                                        transition duration-300"
+                    transition duration-300"
+                  aria-label={`View site for ${project.title}`}
                 >
                   View Site
                 </a>
                 <a
                   href={project.links.github}
                   className="px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
-                                        transition duration-300"
+                    transition duration-300"
+                  aria-label={`View ${project.title} on GitHub`}
                 >
                   <AiOutlineGithub />
                 </a>

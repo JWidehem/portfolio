@@ -43,7 +43,7 @@ const Approach = () => {
         {phases.map((phase, index) => (
           <motion.div
             key={index}
-            className="relative w-full md:w-1/3 h-96 bg-purple-900/10 border border-purple-900 text-slate-700 text-center rounded-lg overflow-hidden cursor-pointer"
+            className="relative w-full md:w-1/3 h-96 bg-purple-900/10 border border-purple-900 text-slate-400 text-center rounded-lg overflow-hidden cursor-pointer"
             onClick={() => toggleCard(index)}
             initial={{ rotateY: 0 }}
             animate={{ rotateY: selected === index ? 180 : 0 }}

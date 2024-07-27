@@ -1,4 +1,4 @@
-import profilepic from "../assets/profpic.png";
+import profilepic from "../assets/profpic.webp";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import {
@@ -58,7 +58,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
           >
-            I am a passionate fullstack developer based in France.
+            I&rsquo;m a passionate fullstack developer based in France.
           </motion.p>
 
           <motion.div
@@ -78,7 +78,7 @@ const Hero = () => {
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.2 }}
-                href="#"
+                href="www.linkedin.com/in/jimmy-widehem-b80aab31b"
                 aria-label="View LinkedIn profile"
               >
                 <AiOutlineLinkedin />
