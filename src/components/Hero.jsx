@@ -1,6 +1,5 @@
 import profilepic from "../assets/profpic.webp";
 import { TypeAnimation } from "react-type-animation";
-import ShinyEffect from "./ShinyEffect";
 import {
   AiOutlineGithub,
   AiOutlineInstagram,
@@ -122,9 +121,7 @@ const Hero = () => {
         <TbBrandThreejs className="text-blue-500 mx-2" />
       </motion.div>
 
-      <div className="absolute inset-0 hidden md:block">
-        <ShinyEffect left={0} top={0} size={1400} />
-      </div>
+      <div className="absolute inset-0 hidden md:block"></div>
     </div>
   );
 };
