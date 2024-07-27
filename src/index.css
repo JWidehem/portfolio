@@ -25,7 +25,7 @@ span {
   border-radius: 50%;
   pointer-events: none;
   z-index: 1;
-  background: radial-gradient(circle, rgba(35, 11, 39, 0.2), transparent 70%);
+  background: radial-gradient(circle, rgba(124, 28, 141, 0.2), transparent 70%);
 }
 
 .bg-primary-color {

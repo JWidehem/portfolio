@@ -1,11 +1,9 @@
-import React from "react";
 import profilepic from "../assets/profpic.png";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import {
   AiOutlineGithub,
   AiOutlineInstagram,
-  AiOutlineLink,
   AiOutlineLinkedin,
 } from "react-icons/ai";
 import {
@@ -50,7 +48,7 @@ const Hero = () => {
             className="text-gray-200 md:text-7xl text-5xl tracking-tight mb-4"
           >
             Hi, I&rsquo;m <br />
-            <span className="text-purple-500">JIMMY</span>
+            <span className="text-purple-500">Jimmy</span>
           </motion.p>
 
           <motion.p
@@ -74,15 +72,22 @@ const Hero = () => {
               <motion.a
                 whileHover={{ scale: 1.2 }}
                 href="https://github.com/JWidehem?tab=repositories"
+                aria-label="View GitHub profile"
               >
                 <AiOutlineGithub />
               </motion.a>
-
-              <motion.a whileHover={{ scale: 1.2 }} href="#">
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                href="#"
+                aria-label="View LinkedIn profile"
+              >
                 <AiOutlineLinkedin />
               </motion.a>
-
-              <motion.a whileHover={{ scale: 1.2 }} href="#">
+              <motion.a
+                whileHover={{ scale: 1.2 }}
+                href="#"
+                aria-label="View Instagram profile"
+              >
                 <AiOutlineInstagram />
               </motion.a>
             </div>
@@ -91,6 +96,7 @@ const Hero = () => {
 
         <motion.img
           src={profilepic}
+          alt="Portrait of Jimmy, a Fullstack Developer"
           className="w-[300px] md:w-[450px]"
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}

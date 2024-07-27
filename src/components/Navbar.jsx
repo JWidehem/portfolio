@@ -42,8 +42,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="portfolio" smooth={true} offset={50} duration={500}>
-              Portfolio
+            <Link to="projects" smooth={true} offset={50} duration={500}>
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to="approach" smooth={true} offset={50} duration={500}>
+              My Approach
             </Link>
           </li>
           <li>
@@ -52,7 +57,12 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div onClick={toggleNav} className="md:hidden z-50 text-gray-200">
+        <div
+          onClick={toggleNav}
+          className="md:hidden z-50 text-gray-200"
+          aria-label="Toggle navigation"
+          aria-expanded={nav}
+        >
           {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
         </div>
 
@@ -76,13 +86,24 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="portfolio"
+                to="projects"
                 onClick={closeNav}
                 smooth={true}
                 offset={50}
                 duration={500}
               >
-                Portfolio
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="approach"
+                onClick={closeNav}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                My Approach
               </Link>
             </li>
             <li>
