@@ -85,7 +85,7 @@ const Hero = () => {
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.2 }}
-                href="#"
+                href="https://www.instagram.com/comte_nietzki?igsh=N2x4NWpldzViY2ls"
                 aria-label="View Instagram profile"
               >
                 <AiOutlineInstagram />

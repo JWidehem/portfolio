@@ -1,4 +1,6 @@
 import iphone from "../assets/3diphone.png";
+import portfolioimg from "../assets/3dportfolio.webp";
+import kasa from "../assets/kasa.webp";
 import { AiOutlineGithub } from "react-icons/ai";
 import Reveal from "./Reveal";
 
@@ -9,28 +11,28 @@ const projects = [
     description:
       "Recreated the Apple IPhone15 Pro website, combining GSAP animations and Three.js 3D effects.",
     links: {
-      site: "#",
+      site: "https://github.com/JWidehem/apple_website.git",
       github: "https://github.com/JWidehem/apple_website.git",
     },
   },
   {
-    img: iphone,
-    title: "Apple Iphone 3D Website Clone",
+    img: portfolioimg,
+    title: "Portfolio 3D",
     description:
-      "Recreated the Apple IPhone15 Pro website, combining GSAP animations and Three.js 3D effects.",
+      "Created an interactive 3D portfolio using Three.js, incorporating animations and 3D objects to provide an immersive online experience.",
     links: {
-      site: "#",
-      github: "https://github.com/JWidehem/apple_website.git",
+      site: "https://github.com/JWidehem/3d_portfolio.git",
+      github: "https://github.com/JWidehem/3d_portfolio.git",
     },
   },
   {
-    img: iphone,
-    title: "Apple Iphone 3D Website Clone",
+    img: kasa,
+    title: "Kasa",
     description:
-      "Recreated the Apple IPhone15 Pro website, combining GSAP animations and Three.js 3D effects.",
+      "Developed a real estate rental web application using React and React Router, focused on creating a modern, responsive user interface with routing management.",
     links: {
-      site: "#",
-      github: "https://github.com/JWidehem/apple_website.git",
+      site: "https://github.com/JWidehem/projet6-kasa.git",
+      github: "https://github.com/JWidehem/projet6-kasa.git",
     },
   },
 ];
