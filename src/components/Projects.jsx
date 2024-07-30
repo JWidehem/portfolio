@@ -11,7 +11,7 @@ const projects = [
     description:
       "Recreated the Apple IPhone15 Pro website, combining GSAP animations and Three.js 3D effects.",
     links: {
-      site: "https://github.com/JWidehem/apple_website.git",
+      site: "https://apple-website-phi-ten.vercel.app/",
       github: "https://github.com/JWidehem/apple_website.git",
     },
   },

@@ -77,7 +77,7 @@ const Hero = () => {
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.2 }}
-                href="www.linkedin.com/in/jimmy-widehem-b80aab31b"
+                href="https://www.linkedin.com/in/jimmy-widehem-b80aab31b/"
                 aria-label="View LinkedIn profile"
               >
                 <AiOutlineLinkedin />
